@@ -1,0 +1,12 @@
+.head-text {
+  color: antiquewhite;
+  position: relative;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.text-on-image {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
