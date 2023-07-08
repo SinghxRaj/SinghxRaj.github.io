@@ -14,17 +14,17 @@ export default function Footer() {
         </Typography>
         <List>
           <ListItem disablePadding>
-            <ListItemButton>
+            <ListItemButton component="a" href="mailto:rajvir11singh@gmail.com">
               <ListItemText primary="Email" sx={{ color: "white" }} />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="#simple-list">
+            <ListItemButton component="a" href="https://www.linkedin.com/in/rajvirsin/">
               <ListItemText primary="LinkedIn" sx={{ color: "white" }} />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="#simple-list">
+            <ListItemButton component="a" href="https://github.com/SinghxRaj">
               <ListItemText primary="GitHub" sx={{ color: "white" }} />
             </ListItemButton>
           </ListItem>
@@ -37,12 +37,12 @@ export default function Footer() {
         </Typography>
         <List>
           <ListItem disablePadding>
-            <ListItemButton>
+            <ListItemButton component="a" href="/#intro">
               <ListItemText primary="Who am I?" sx={{ color: "white" }} />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="#simple-list">
+            <ListItemButton component="a" href="/">
               <ListItemText primary="Work Experience" sx={{ color: "white" }} />
             </ListItemButton>
           </ListItem>

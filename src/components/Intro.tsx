@@ -11,7 +11,7 @@ export default function Intro() {
       </Grid>
       <Grid item xs={10} md={4} fontFamily='Noto Sans JP, sans-serif' color={'white'}>
         <Typography minWidth={300}>
-          <h1 className="title">Who am I?</h1>
+          <h1 className="title" id="intro">Who am I?</h1>
           <div className="body">
             <p>Hi! I'm Rajvir, a Software Engineer based in Seattle, WA who's experience
               in developing fullstack applications from scratch to production.

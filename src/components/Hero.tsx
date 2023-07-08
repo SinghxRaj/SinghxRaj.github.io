@@ -10,11 +10,11 @@ AOS.init();
 
 const HEADINGS = [
   "Hi, I'm Rajvir Singh.",
-  "You can call me Ricky too.",
-  "Collaborative, Growth Mindeset, and Leader",
-  "Love working with others.",
-  "I'm a Software Engineer.",
-  "Love coding",
+  "Software Engineer",
+  "Backend Engineer",
+  "Problem Solver",
+  "Collaborative - Team Player",
+  "Growth Mindset"
 ];
 
 export default function Hero() {
