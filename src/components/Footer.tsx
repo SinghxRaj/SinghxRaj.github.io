@@ -42,12 +42,12 @@ export default function Footer() {
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="/">
+            <ListItemButton component="a" href="#workExperience">
               <ListItemText primary="Work Experience" sx={{ color: "white" }} />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="#simple-list">
+            <ListItemButton component="a" href="#projects">
               <ListItemText primary="Projects" sx={{ color: "white" }} />
             </ListItemButton>
           </ListItem>

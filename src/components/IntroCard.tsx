@@ -6,11 +6,12 @@ import Grid from '@mui/material/Grid';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CardMedia from '@mui/material/CardMedia';
+import Link from '@mui/material/Link';
 import '../assets/styling/IntroCard.css'
 
 export default function IntroCard() {
   return (
-    <Card sx={{ minWidth: 200, maxWidth: 400, borderRadius: "15px" }}>
+    <Card sx={{ minWidth: 200, maxWidth: 400, borderRadius: "15px", bgcolor: "#d4d2d2" }}>
       <CardMedia
         component="img"
         height="220"
@@ -26,13 +27,18 @@ export default function IntroCard() {
         </Typography>
         <Grid container justifyContent={"center"} margin={1}>
           <Grid item xs={3} sm={4} md={4}>
-            <IconButton aria-label="LinkedIn" color="primary">
-              <LinkedInIcon />
-            </IconButton>
+            <Link href="https://www.linkedin.com/in/rajvirsin/" target="_blank">
+              <IconButton aria-label="LinkedIn" color="primary">
+                <LinkedInIcon />
+              </IconButton>
+            </Link>
+
           </Grid>
           <Grid item xs={3} sm={3} md={2}>
             <IconButton aria-label="Github" color="inherit">
-              <GitHubIcon />
+              <Link href="https://github.com/SinghxRaj" target="_blank" color="inherit">
+                <GitHubIcon />
+              </Link>
             </IconButton>
           </Grid>
         </Grid>

@@ -58,7 +58,6 @@ export default function Hero() {
               </p>
             </Grid>
           </Grid>
-
         </div>
       </div>
 
