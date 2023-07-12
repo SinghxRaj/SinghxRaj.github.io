@@ -36,7 +36,7 @@ export default function Hero() {
 
   return (
     <div className="head-text">
-      <Image src="/black-wood-background.jpeg"
+      <Image src="black-wood-background.jpeg"
         alt="An image of the starry sky."
         errorIcon={null}
         fit="cover"
