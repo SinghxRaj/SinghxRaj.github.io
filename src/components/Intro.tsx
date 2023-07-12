@@ -19,11 +19,11 @@ export default function Intro() {
                 in developing fullstack applications from scratch to production.
               </p>
               <p>
-                I'm currently attending the University of Washington Seattle as a Computer Science
-                major.
+                I am a recent graduate from the University of Washington Seattle with a Bachelor's degree
+                in Computer Science.
               </p>
               <p>
-                Over the last 3 years, I've had the opportunity to work on building various projects.
+                Over the last 4 years, I've had the opportunity to work on building various projects.
                 These projects include web applications and back-end services.
               </p>
             </div>
