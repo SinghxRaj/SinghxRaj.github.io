@@ -37,7 +37,7 @@ export default function Footer() {
         </Typography>
         <List>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="/#intro">
+            <ListItemButton component="a" href="#intro">
               <ListItemText primary="Who am I?" sx={{ color: "white" }} />
             </ListItemButton>
           </ListItem>
